@@ -3,6 +3,7 @@
 **1. Introdução**
 
 Nome do sistema: Sistema de Gerenciamento de Funcionários
+
 Descrição geral: O sistema permite cadastrar, listar e buscar funcionários, armazenando seus dados (nome, cargo e salário) em memória.
 
 **2. Técnicas Utilizadas**

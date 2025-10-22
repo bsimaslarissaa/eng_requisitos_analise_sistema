@@ -41,4 +41,6 @@ O objetivo é testar ideias, validar requisitos com os usuários e verificar se 
 
 **5. Diagrama de Caso de Uso**
 
+Ator : Usuário (Administrador ou RH), é quem interage com o sistema. Neste caso, iremos colocar o RH como principal autor.
+
 

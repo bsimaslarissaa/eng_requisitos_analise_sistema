@@ -16,3 +16,31 @@ Durante o brainstorming, os participantes compartilham livremente suas sugestõe
 
 **Prototipagem -** Consiste em criar uma versão simplificada (protótipo) do sistema que será desenvolvido.
 O objetivo é testar ideias, validar requisitos com os usuários e verificar se o projeto está seguindo na direção correta antes da implementação final.
+
+**3. Requisitos Funcionais**
+
+RF01 - Cadastrar Aluno
+
+RF02 - Listar Alunos
+
+RF03 - Buscar Nota Aluno
+
+RF04 -  Encerrar Sistema
+
+RF05 - Exibir Menu principal
+
+**4. Requisitos não funcionais**
+
+RNF01- Interface textutal
+
+RNF02- Validação da dados
+
+RNF03- Armazenamento de memória
+
+RNF04- Usabilidade simples
+
+RNF05 - Linguagem Python
+
+RNF06 - Desempenho
+
+

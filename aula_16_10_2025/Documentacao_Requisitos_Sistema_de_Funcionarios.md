@@ -44,3 +44,6 @@ O objetivo é testar ideias, validar requisitos com os usuários e verificar se 
 Ator : Usuário (Administrador ou RH), é quem interage com o sistema. Neste caso, iremos colocar o RH como principal autor.
 
 
+![Diagrama sem nome (17)](https://github.com/user-attachments/assets/d7e2eba3-c953-4160-87d8-c3d0f191c9bf)
+
+

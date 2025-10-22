@@ -6,7 +6,7 @@ Descrição geral: O sistema permite cadastrar, listar e buscar funcionários, a
 
 **2. Técnicas Utilizadas**
 
-Entrevista com Stakeholders - Essa técnica consiste em conversar diretamente com os envolvidos no projeto (clientes, usuários, gestores, etc.) para entender suas necessidades, expectativas e objetivos. 
+*Entrevista com Stakeholders* - Essa técnica consiste em conversar diretamente com os envolvidos no projeto (clientes, usuários, gestores, etc.) para entender suas necessidades, expectativas e objetivos. 
 É uma das etapas mais importantes do levantamento de requisitos, pois permite obter informações precisas e reais sobre o que o sistema deve fazer.
 
 Brainstorming - É uma técnica em grupo usada para gerar e desenvolver ideias de forma criativa e colaborativa.

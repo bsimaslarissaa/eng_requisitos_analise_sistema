@@ -20,8 +20,11 @@ O objetivo é testar ideias, validar requisitos com os usuários e verificar se 
 **3. Requisitos Funcionais e não funcionais** 
 
 **RF01**	Adicionar funcionário: O sistema deve permitir cadastrar um funcionário informando nome, cargo e salário.
+
 **RF02**	Listar funcionários:	O sistema deve exibir todos os funcionários cadastrados, com nome, cargo e salário formatado.
+
 **RF03**	Buscar funcionário:	O sistema deve permitir buscar um funcionário pelo nome e exibir seu cargo e salário.
+
 **RF04**	Encerrar sistema:	O sistema deve permitir ao usuário encerrar a execução escolhendo a opção “0 - Sair”.
 
 

@@ -1,0 +1,74 @@
+# Segue código em COBOL.
+
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. SISTEMA-ALUNOS.
+
+       ENVIRONMENT DIVISION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       77 NUM-ALUNOS      PIC 9 VALUE 5.
+       77 I               PIC 9 VALUE 1.
+       01 NOME-ALUNO-TEXT.
+          05 NOME-ALUNO    OCCURS 5 TIMES PIC X(20).
+       01 NOTAS-ALUNO       OCCURS 5 TIMES PIC 99V99.
+       77 TOTAL-NOTAS      PIC 99V99 VALUE 0.
+       77 MEDIA-ALUNOS     PIC 99V99 VALUE 0.
+
+       PROCEDURE DIVISION.
+       MAIN-PARAGRAPH.
+           DISPLAY "=== SISTEMA DE CADASTRO DE ALUNOS ===".
+
+           PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-ALUNOS
+               DISPLAY "Digite o nome do aluno " I ": "
+               ACCEPT NOME-ALUNO(I)
+               DISPLAY "Digite a nota de " NOME-ALUNO(I) ": "
+               ACCEPT NOTAS-ALUNO(I)
+               ADD NOTAS-ALUNO(I) TO TOTAL-NOTAS
+           END-PERFORM
+
+           PERFORM CALCULA-MEDIA
+
+           DISPLAY "=== LISTA DE ALUNOS ==="
+           PERFORM VARYING I FROM 1 BY 1 UNTIL I > NUM-ALUNOS
+               DISPLAY NOME-ALUNO(I) " | Nota: " NOTAS-ALUNO(I)
+           END-PERFORM
+
+           DISPLAY "Média da turma: " MEDIA-ALUNOS
+           STOP RUN.
+
+       CALCULA-MEDIA.
+           DIVIDE TOTAL-NOTAS BY NUM-ALUNOS GIVING MEDIA-ALUNOS.
+           EXIT.
+
+
+      # segue o mesmo código em python : 
+
+      
+NUM_ALUNOS = 5
+nomes = []
+notas = []
+total_notas = 0.0
+
+print("=== SISTEMA DE CADASTRO DE ALUNOS ===")
+
+
+for i in range(NUM_ALUNOS):
+    nome = input(f"Digite o nome do aluno {i + 1}: ").strip()
+    nota = float(input(f"Digite a nota de {nome}: "))
+
+    nomes.append(nome)
+    notas.append(nota)
+
+    total_notas += nota
+
+
+media_alunos = total_notas / NUM_ALUNOS
+
+
+print("\n=== LISTA DE ALUNOS ===")
+for i in range(NUM_ALUNOS):
+    print(f"{nomes[i]} | Nota: {notas[i]:.2f}")
+
+print(f"\nMédia da turma: {media_alunos:.2f}")
+      

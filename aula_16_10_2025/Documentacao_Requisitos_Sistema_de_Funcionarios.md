@@ -17,7 +17,7 @@ Durante o brainstorming, os participantes compartilham livremente suas sugestõe
 **Prototipagem -** Consiste em criar uma versão simplificada (protótipo) do sistema que será desenvolvido.
 O objetivo é testar ideias, validar requisitos com os usuários e verificar se o projeto está seguindo na direção correta antes da implementação final.
 
-**3. Requisitos Funcionais e não funcionais** 
+**3. Requisitos funcionais** 
 
 **RF01**	Adicionar funcionário: O sistema deve permitir cadastrar um funcionário informando nome, cargo e salário.
 
@@ -26,5 +26,17 @@ O objetivo é testar ideias, validar requisitos com os usuários e verificar se 
 **RF03**	Buscar funcionário:	O sistema deve permitir buscar um funcionário pelo nome e exibir seu cargo e salário.
 
 **RF04**	Encerrar sistema:	O sistema deve permitir ao usuário encerrar a execução escolhendo a opção “0 - Sair”.
+
+**4. Requisitos não funcionais**
+
+**RNF01**	Linguagem:	O sistema deve ser implementado em Python 3.
+
+**RNF02**	Interface:	O sistema deve operar via interface de linha de comando (CLI).
+
+**RNF03**	Limite de armazenamento:	O sistema deve permitir cadastrar no máximo 100 funcionários.
+
+**RNF04**	Validação de entrada:	O sistema deve validar entradas de dados, impedindo valores inválidos para o salário.
+
+**RNF05**	Desempenho:	As operações devem ser executadas instantaneamente para até 100 registros.
 
 

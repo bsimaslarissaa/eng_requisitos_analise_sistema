@@ -48,8 +48,8 @@ Ator : Usuário (Administrador ou RH), é quem interage com o sistema. Neste cas
 
 
 **6. Diagrama de atividades**
+<img width="592" height="682" alt="Diagrama sem nome drawio (5)" src="https://github.com/user-attachments/assets/26d17b83-bc58-4f4b-afde-402f628f2c53" />
 
-<img width="341" height="751" alt="Diagrama sem nome drawio (4)" src="https://github.com/user-attachments/assets/e8042ae7-6314-4148-b7e5-5f455f26c9b5" />
 
 
 

@@ -45,6 +45,8 @@ RNF06 - Desempenho
 
 **5. Diagrama de Caso de Uso**
 
+<img width="401" height="421" alt="Diagrama sem nome drawio (6)" src="https://github.com/user-attachments/assets/f63ac3bb-5348-4431-b48b-1ec252d2f520" />
+
 **6. Diagrama de atividades**
 
 

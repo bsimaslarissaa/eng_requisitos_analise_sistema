@@ -43,4 +43,8 @@ RNF05 - Linguagem Python
 
 RNF06 - Desempenho
 
+**5. Diagrama de Caso de Uso**
+
+**6. Diagrama de atividades**
+
 

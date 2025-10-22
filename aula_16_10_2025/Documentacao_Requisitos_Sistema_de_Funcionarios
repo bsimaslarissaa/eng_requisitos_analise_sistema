@@ -1,6 +1,5 @@
 DOCUMENTAÇÃO DE REQUISITOS – Sistema de Funcionários
-1. Introdução
 
+1. Introdução
 Nome do sistema: Sistema de Gerenciamento de Funcionários
-Descrição geral:
-O sistema permite cadastrar, listar e buscar funcionários, armazenando seus dados (nome, cargo e salário) em memória.
+Descrição geral: O sistema permite cadastrar, listar e buscar funcionários, armazenando seus dados (nome, cargo e salário) em memória.

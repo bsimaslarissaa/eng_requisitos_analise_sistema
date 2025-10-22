@@ -39,4 +39,6 @@ O objetivo é testar ideias, validar requisitos com os usuários e verificar se 
 
 **RNF05**	Desempenho:	As operações devem ser executadas instantaneamente para até 100 registros.
 
+**5. Diagrama de Caso de Uso**
+
 

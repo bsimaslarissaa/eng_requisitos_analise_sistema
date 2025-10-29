@@ -4,21 +4,21 @@
 
 A Análise de Pontos de Função é uma técnica de medição de software que tem como principais objetivos:
 
-Medir o tamanho funcional do software independente de tecnologia
+- Medir o tamanho funcional do software independente de tecnologia
 
-Estimar esforço e custos de desenvolvimento de forma mais precisa
+- Estimar esforço e custos de desenvolvimento de forma mais precisa
 
-Avaliar produtividade das equipes de desenvolvimento
+- Avaliar produtividade das equipes de desenvolvimento
 
-Facilitar o gerenciamento de projetos de software
+- Facilitar o gerenciamento de projetos de software
 
-Padronizar a medição entre diferentes projetos e tecnologias
+- Padronizar a medição entre diferentes projetos e tecnologias
 
-Fornecer baseline para comparação de performance
+- Fornecer baseline para comparação de performance
 
-Auxiliar no planejamento de recursos e prazos
+- Auxiliar no planejamento de recursos e prazos
 
-Suportar decisões de terceirização e contratação
+- Suportar decisões de terceirização e contratação
 
 **2. Ferramentas de Apoio para APF**
 
